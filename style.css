@@ -1,0 +1,290 @@
+/* style for Bakery project */
+
+/* Normalize  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+/*         nav bar             */
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0px -108px; 
+}
+.navbar img {
+  width: 150px;
+  margin: 24px;
+
+}
+
+.nav-list{
+    float: right;
+    margin: 2vh;
+}
+.navbar .nav-list ul li {
+  display: inline-block;
+  text-align: center;
+  width: 7vw;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 300;
+
+}
+.navbar .nav-list ul li a{
+    color: #fff;
+    font-family: 'Alegreya', serif;
+} 
+
+
+
+
+/* -------- Welcome section ------------- */
+
+.welcome{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+    /* source :https://stackoverflow.com/questions/35282225/getting-two-divs-to-share-one-background-image */
+  }
+
+  
+  .welcome .hero-div{
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+  }
+  
+.welcome h3{
+  padding-top: 20vh;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 28px;
+}
+.welcome .hero{
+    margin-top: 5vh ;
+    font-size: 70px;
+    font-family: 'Alegreya', serif;
+}
+.welcome h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    
+}
+
+.welcome button{
+  margin-top: 7vh;
+  margin-right: 2vw;
+  padding: 1vw 2vh;
+  color: white;
+  background-color: transparent;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 12vw;
+  height: 8vh;
+}
+#learn-more{
+  color: white;
+  background-color: #8e7754;
+  border: 1px solid #8e7754;
+}
+
+/* --------- sections -------- */
+.sec{
+  padding: 15vh 0vw;
+  margin: 0 auto;
+  width: 88vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+}
+.sec .section-img{
+  display: inline-block;
+}
+.section-img{
+  float: left;
+}
+
+.sec-paragraph , .sec-title{
+  
+  margin-bottom: 2vh ;
+  font-family: 'Alegreya Sans', sans-serif;
+  
+}
+.sec-paragraph {
+  
+  color: #686868;
+  font-size: 18px;
+  margin:20px 16px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.sec-title{
+  color: #000;
+  font-size: 36px;
+  margin-bottom: 10vh;
+  margin-left: 2vw;
+}
+.sec div{
+  width: 44vw;
+  float: left;
+  
+}
+
+/* --------- sec -2  who we are ?-------------- */
+
+#sec-2 img{
+  width: 90%;
+  margin-bottom: 5vh;
+}
+
+
+#sec-2 div ul li span{
+  margin: 10px 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: black;
+}
+#sec-2 ul li {
+  list-style: none;
+  margin-bottom: 2vh;
+  font-size: 18px;
+  color: #686868;
+  font-weight: 500;
+  line-height: 40px;
+  font-weight: 300;
+}
+#sec-2 ul li i{
+ 
+  color: #8e7754;
+  margin-right: 18px;
+  color: #8e7754;
+  border: #8e7754 solid 0.5px;
+  border-radius:30px ;
+  font-size: 22px;
+  padding: 5px;
+}
+
+
+ /* ------------- sec 3 our location---------- */
+ #sec-3{
+  margin-bottom: 5vh;
+ }
+ #sec-3 div{
+  width: 44vw;
+  float: left;
+}
+#grey-background{
+  width: 100vw;
+}
+#grey-background, #sec-3{
+  background-color: #e9ecef;
+}
+#sec-3 img{
+  width: 90%;
+  
+}
+
+ /* ------------- sec 4   our baking ---------- */
+
+ #sec-4{
+
+   width: 100%;
+ }
+ #sec-4 .three-imgs-container{
+   width: 100%;
+   margin: auto;
+ 
+ }
+ .center-title, #sec4 p, #sec-4 h4 {
+   text-align: center;
+   font-family: 'Alegreya Sans', sans-serif;
+   margin-bottom: 1vh;
+ }
+ .img-container p{
+   margin-bottom: 5vh;
+   text-align: center;
+   color: #8e7754;
+   font-weight: 300;
+   line-height: 25px;
+   
+ }
+ .center-title{
+  font-size: 36px;
+ 
+}
+ #sec-4 h4{
+   font-size: 22px;
+   color: #686868;
+   margin: 16px;
+ }
+ #sec-4 img{
+   width: 100%;
+ }
+ #sec-4 .three-imgs-container{
+   text-align: center;
+   font-family: 'Alegreya Sans', sans-serif;
+ }
+ .img-container{
+   display: inline-block;
+   width: 26%;
+   text-align: center;
+   margin: 1vw;
+}
+
+
+/* ------------ sec-5 our contact details --------------- */
+#sec-5 ul{
+  display: inline-block;
+}
+#sec-5 ul li {
+  list-style: none;
+  margin-bottom: 2vh;
+  font-size: 18px;
+  color: #686868;
+  font-weight: 300;
+  line-height: 36px;
+  font-weight: 300;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+#sec-5 ul li i{
+ 
+  background-color: #8e7754;
+  padding: 20px;
+  margin-right: 18px;
+  color: #fff;
+  border: #8e7754 solid 0.5px;
+  border-radius:70px ;
+  font-size: 28x;
+  padding: 5px;
+}
+#sec-5 .map-iframe{
+  display: inline-block;
+  /* float: left; */
+  width: 40vw;
+  height: 100%;
+}
+

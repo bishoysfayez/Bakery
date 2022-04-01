@@ -1,3 +1,14 @@
+/* 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Route - Full stack diploma C38 - SAT & TUE - ALEX
+Date : 1-APR-2022
+Assignment # 3 - BAKERY
+Name : Bishoy Saeed Fayez
+e-mail : bishoysfayez@gmail.com 
+Mobile & Whatsapp : 01211351223
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
 /* style for Bakery project */
 
 /* Normalize  */
@@ -15,25 +26,50 @@ a {
 .clearfix {
     clear: both;
 }
+ul{
+  list-style: none;
+}
+
 /*         nav bar             */
+.wrapper{
+  /* border: 1px solid green; */
+  padding: 0;
+}
 .navbar {
-    margin: 0;
-    padding: 0;
     width: 100%;
     background-image: url(images/drew-coffman-1872.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0px -108px; 
+    /* border: 2px solid red; */
+    text-align: left;
 }
 .navbar img {
   width: 150px;
   margin: 24px;
 
 }
-
+.logo{
+  display: inline-block;
+  text-align: left;
+  /* margin-right: 37vw; */
+  /* border: 2px solid red; */
+  /* float:left; */
+}
 .nav-list{
-    float: right;
-    margin: 2vh;
+    
+    display: inline-block;
+    margin: 0px;
+    /* background-color: red; */
+    margin: auto;
+    text-align: right;
+    /* float: left; */
+   
+}
+.navbar ul{
+  /* border: 1px solid red; */
+  margin: auto;
+  text-align: right;
 }
 .navbar .nav-list ul li {
   display: inline-block;
@@ -41,7 +77,6 @@ a {
   width: 7vw;
   font-size: 18px;
   color: #fff;
-  margin-top: 20px;
   cursor: pointer;
   font-weight: 300;
 
@@ -51,7 +86,11 @@ a {
     font-family: 'Alegreya', serif;
 } 
 
-
+.margin-keeper{
+  width:400px;
+  display: inline-block;
+  /* border: 1px solid cyan; */
+}
 
 
 /* -------- Welcome section ------------- */
@@ -99,8 +138,8 @@ a {
   color: white;
   background-color: transparent;
   font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   border-radius: 10px;
   border: 2px solid white;
   width: 12vw;
@@ -123,8 +162,9 @@ a {
 .sec .section-img{
   display: inline-block;
 }
-.section-img{
-  float: left;
+.section-img, #sec-2 div{
+  /* float: left; */
+  display: inline-block;
 }
 
 .sec-paragraph , .sec-title{
@@ -149,8 +189,8 @@ a {
   margin-left: 2vw;
 }
 .sec div{
-  width: 44vw;
-  float: left;
+  width: 40vw;
+  /* float: left; */
   
 }
 
@@ -168,7 +208,7 @@ a {
   color: black;
 }
 #sec-2 ul li {
-  list-style: none;
+  
   margin-bottom: 2vh;
   font-size: 18px;
   color: #686868;
@@ -190,11 +230,13 @@ a {
 
  /* ------------- sec 3 our location---------- */
  #sec-3{
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
  }
- #sec-3 div{
-  width: 44vw;
-  float: left;
+ #sec-3 div, #sec-3 .section-img{
+  width: 40vw;
+  display: inline-block;
+  /* border: 1px solid red; */
+  /* float: left; */
 }
 #grey-background{
   width: 100vw;
@@ -202,10 +244,12 @@ a {
 #grey-background, #sec-3{
   background-color: #e9ecef;
 }
-#sec-3 img{
+
+#sec-3 .section-img img{
   width: 90%;
-  
+  display: inline-block;
 }
+
 
  /* ------------- sec 4   our baking ---------- */
 
@@ -281,10 +325,106 @@ a {
   font-size: 28x;
   padding: 5px;
 }
+#sec-5 div{
+  display: inline-block;
+}
 #sec-5 .map-iframe{
   display: inline-block;
-  /* float: left; */
   width: 40vw;
   height: 100%;
 }
 
+
+
+
+/* ---------- footer-1------------- */
+
+.footer-1{
+  color: #dad4d4;
+  width: 100%;
+  background-color: #575555;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  /* margin: 0; */
+  /* padding-top:5vh; */
+}
+
+.footer-1 .footer-1-center{
+  margin: 0 auto 5vh auto;
+  width: 92vw;
+  /* background-color: red; */
+}
+
+.footer-1 .top-margin-adjust{
+  width: 100%;
+  height: 5vh;
+  /* background-color: cyan; */
+}
+
+
+
+.footer-1 .quarter{
+  width: 22%;
+  /* margin: 0 16px; */
+  padding-right: 12px;
+  display: inline-block;
+  line-height: 30px;
+  /* background-color: teal; */
+  height: 50vh;
+}
+.footer-1 ul{
+  list-style: ">";
+}
+
+.footer-1 h3{
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  text-align: justify;
+}
+.footer-1 p, .footer-1 li{
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 500;
+}
+.footer-1 li{
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  border-bottom: 0.3px solid #797979;
+}
+.footer-1 li i{
+
+  margin-right: 10px;
+
+}
+.remove-bullet li{
+  list-style: none;
+}
+
+/* ---------- footer-2------------- */
+
+.footer-2{
+  background-color: #353434;
+  color: #797979;
+  text-align: center;
+  width:100vw;
+}
+
+.footer-2 p{
+  font-size: 18px;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 16px;
+}
+.footer-2 .center-items{
+  margin: 0vw auto;
+}
+.footer-2 i{
+  color: #353434;
+  font-size: 20px;
+  background-color: #616060;
+  padding: 13px 17px;
+  border-radius: 48px;
+}
